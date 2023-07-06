@@ -1,0 +1,703 @@
+week 2: Assignment part 1:- core html
+
+
+Q.1 Build a simple webpage that displays text as shown in the below image.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><b>This text will be bolded.</b></p>
+    <p><i>This text will be italic.</i></p>
+    <p><u>This text will be underlined </u></p>
+    <p><mark>This text will be highlighted</mark></p>
+    <p>this is normal text <sup>this will be super scripted </sup>this is normal again</p>
+<p>this is normal text <sub> this text will be subscripted</sub></p>
+<p>Normal Text <small>small text</small></p>
+<p><s>This text will be deleted</s></p>
+</body>
+</html>
+
+Q.2 Build a simple webpage that displays the table as shown below.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> fun time table    </title>
+</head>
+<body style = "background-color: rgb(209, 200, 200);">
+
+    <h1  style="text-align: center;"></h1>
+<table border="2" align="center">
+    <tr>
+        <td align="center" height="30" width="100">
+            <b>SI No.</b>
+        </td>
+        <td align="center" height="30" width="100">
+            <b>Name</b>
+        </td>
+        <td align="center" height="30" width="100">
+            <b>Course</b>
+        </td>
+        <td align="center" height="30" width="100">
+            <b>Email</b>
+        </td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100"> 1 </td>
+        <td align="center" height="30" width="100"> aarav sharma</td>
+        <td align="center" height="30" width="100">FSWD</td>
+        <td align="center" height="30" width="100">aarav.sharma@gmail.com</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">2</td>
+        <td align="center" height="30" width="100">Diya Patel</td>
+        <td align="center" height="30" width="100">FSDS</td>
+        <td align="center" height="30" width="100">diya.patel@gmail.com</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">3</td>
+        <td align="center" height="30" width="100">Aryan singh</td>
+        <td align="center" height="30" width="100">DSA with JAVA</td>
+        <td align="center" height="30" width="100">aryan.singh@gmail.com</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">4</td>
+        <td align="center" height="30" width="100">Avni gupta</td>
+        <td align="center" height="30" width="100">FSWD</td>
+        <td align="center" height="30" width="100">avni.gupta@gmail.com</td>
+        
+    </tr>
+    </tr>
+    <tr>
+</td>
+        <td align="center" height="30" width="100">5</td>
+        <td align="center" height="30" width="100">rohan mehta</td>
+        <td align="center" height="30" width="100">FSDS</td>
+        <td align="center" height="30" width="100">rohan.mehta@gmail.com</td> 
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">6</td>
+        <td align="center" height="30" width="100">prisha verma</td>
+        <td align="center" height="30" width="100">DSA with JAVA</td>
+        <td align="center" height="30" width="100">prisha.verma@gmail.com</td>
+    
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">7</td>
+        <td align="center" height="30" width="100">arnav choudhary</td>
+        <td align="center" height="30" width="100">FSWD</td>
+        <td align="center" height="30" width="100">arnav.choudhary@gmail.com</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">8</td>
+        <td align="center" height="30" width="100">ishaan</td>
+        <td align="center" height="30" width="100">FSDS</td>
+        <td align="center" height="30" width="100">ishaan.patel@gmail.com</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">9</td>
+        <td align="center" height="30" width="100">siya singh</td>
+        <td align="center" height="30" width="100">FSDS</td>
+        <td align="center" height="30" width="100">siya.singh@gmail.com</td>
+        
+        
+    </tr>
+    
+</table>
+
+
+
+</body>
+</html>
+
+
+Q3.Build a simple webpage that displays the table shown below.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> fun time table    </title>
+</head>
+<body style = "background-color: rgb(209, 200, 200);">
+
+    <h1  style="text-align: center;"> </h1>
+<table border="2" align="center">
+    <tr>
+        <td align="center" height="30" width="100">
+           Product
+        </td>
+        <td  colspan= "2" align="center" height="30" width="100">
+           Flavours & Quantity
+        </td>
+        
+    </tr>
+    <tr>
+        <td colspan="3" height="30" width="100"> Dairy </td>
+        
+        
+    </tr>
+    <tr>
+        <td rowspan="3" align="center" height="30" width="100">Ice Creams</td>
+        <td align="center" height="30" width="100">vanilla</td>
+        <td align="center" height="30" width="50">500g</td>  
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">Chocolate</td>
+        <td align="center" height="30" width="50">250g</td>
+        
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">Butter Scotch</td>
+        <td align="center" height="30" width="50">1 kg</td>
+        
+    </tr>
+    </tr>
+    <tr>
+</td>
+        <td colspan="3" height="30" width="100">Beverages</td> 
+    </tr>
+    <tr>
+        <td rowspan="3" align="center" height="30" width="100">Soda</td>
+        <td align="center" height="30" width="100">Cola</td>
+        <td align="center" height="30" width="50">0.5 L</td>
+        
+    
+    </tr>
+    <tr>
+        <td align="center" height="30" width="100">orange</td>
+        <td align="center" height="30" width="50">1 L</td>
+
+        
+    </tr>
+    <tr> 
+        <td align="center" height="30" width="100">lime</td>
+        <td align="center" height="30" width="50">2 L</td>
+     
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+Q4.Build a simple blog web page with 3 pages home, web development, and web design. Each page
+must contain hyperlinks to other pages in the top, a heading of the page topic and a paragraph of
+information. or home page you can add some information about yourself.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog - Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <p>Welcome to my blog! I'm Shreya, a web developer passionate about creating awesome websites. On this blog, I'll be sharing my thoughts, experiences, and tips related to web development and web design. Feel free to explore the other pages to learn more!</p>
+    
+    <h2>Pages:</h2>
+    <ul>
+        <li><a href="web_development.html">Web Development</a></li>
+        <li><a href="web_design.html">Web Design</a></li>
+    </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog - Web Development</title>
+</head>
+<body>
+    <h1>Web Development</h1>
+    <p>In this section, I'll be sharing my knowledge and experiences in web development. From frontend to backend, I'll cover various topics such as HTML, CSS, JavaScript, frameworks, and more. Stay tuned for exciting content!</p>
+    
+    <h2>Pages:</h2>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="web_design.html">Web Design</a></li>
+    </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog - Web Design</title>
+</head>
+<body>
+    <h1>Web Design</h1>
+    <p>In this section, I'll be discussing web design principles, techniques, and trends. From color theory to user experience (UX) design, I'll provide insights and tips to create visually appealing and user-friendly websites. Let's dive into the world of web design!</p>
+    
+    <h2>Pages:</h2>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="web_development.html">Web Development</a></li>
+    </ul>
+</body>
+</html>
+
+Q5. Build a simple webpage that helps users navigate different web development-related websites.
+Note: On clicking the hyperlink the webpages should open in a new tab. Below is a reference image.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Development Links</title>
+</head>
+<body>
+    <h1>Web Development Links</h1>
+    
+    <ul>
+        <li><a href="https://pwskills.com/" target="_blank">take me to pw  skills to buy a couse.</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/" target="_blank">take me to mdn docs to know more about web development.</a></li>
+        <li><a href="https://lab.pwskills.com/" target="_blank">take me to pw dkill lab to practice live coding.</a></li>
+    </ul>
+</body>
+
+
+Q6. Create an ordered list of HTML tags. Each list item must include the tag name and some information
+about the tag.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> tag name and some information about the tag </h3>
+    <ol>
+<li>
+    <strong> P Tag </strong>: Defines a paragraph of text.
+</li>
+<li>
+    <strong> a </strong>: Creates a hyperlink to another web page or a specific location within the same page.
+  </li>
+  <li>
+    <strong> img </strong>: Inserts an image into the document.
+  </li>
+  <li>
+    <strong>ul</strong>: Represents an unordered list, where list items are preceded by bullet points.
+  </li>
+  <li>
+    <strong>ol</strong>: Represents an ordered list, where list items are numbered sequentially.
+  </li>
+  <li>
+    <strong>li</strong>: Defines a list item within an unordered or ordered list.
+  </li>
+    
+    </ol>
+</body>
+</html>
+
+Q7.Create an unordered list of 5 programming Quotes, using the <ul> tag.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> 5 programming quotes</h3>
+    <ul>
+        <li>"Code is like humor. When you have to explain it, it's bad." - Cory House</li>
+        <li>"Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson</li>
+        <li>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler</li>
+        <li>"The best error message is the one that never shows up." - Thomas Fuchs</li>
+        <li>"It's not a bug, it's an undocumented feature." - Anonymous</li>
+      </ul>
+</body>
+</html>
+
+Q8. Create a description list of full stack web development tech stack, using the <dl> tag. Each term
+should be a tech stack name and each description should be a brief explanation of what the tech
+stack is used for.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>description list of full stack web development tech stack</h1>
+    <dl>
+        <dt>Front-end Frameworks</dt>
+        <dd>A collection of tools, libraries, and technologies used to build the user interface and client-side functionality of a web application. Examples include React, Angular, and Vue.js.</dd>
+      
+        <dt>Back-end Frameworks</dt>
+        <dd>Frameworks that provide a foundation for building the server-side components of a web application, including handling requests, managing databases, and implementing business logic. Examples include Node.js, Django, and Ruby on Rails.</dd>
+      
+        <dt>Database Systems</dt>
+        <dd>Software systems used to store, manage, and retrieve data for web applications. Common database systems include MySQL, PostgreSQL, MongoDB, and Redis.</dd>
+      
+        <dt>APIs (Application Programming Interfaces)</dt>
+        <dd>Interfaces that allow different software systems to communicate and exchange data. APIs enable front-end and back-end components to interact and share information effectively.</dd>
+      
+        <dt>Version Control Systems</dt>
+        <dd>Tools that track and manage changes to source code files, enabling collaboration, versioning, and easy rollbacks. Git is the most widely used version control system in web development.</dd>
+      
+        <dt>Cloud Services</dt>
+        <dd>Services provided by cloud computing platforms, such as AWS (Amazon Web Services) or Azure, that offer infrastructure, storage, and scalable resources for hosting web applications.</dd>
+      
+        <dt>DevOps Tools</dt>
+        <dd>A set of practices and tools that combine development (Dev) and operations (Ops) to facilitate collaboration and automation throughout the software development lifecycle. Tools like Docker and Jenkins are commonly used in DevOps.</dd>
+      </dl>
+</body>
+</html>
+
+Q9. Create an ordered list of the most common text formatting tags in HTML. Within each list item, use an
+unordered list to list the specific use cases and best practices for that tag.
+
+ <h1> question 9.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>most common text formatting tags in HTML</h3>
+    <ol>
+        <li>
+          <strong>strong</strong> - Strong Emphasis
+          <ul>
+            <li>Use to indicate strong importance or seriousness of the enclosed text.</li>
+            <li>Avoid using it for purely visual purposes; use CSS for styling instead.</li>
+            <li>Screen readers and search engines may give more weight to the text within this tag.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>em</strong> - Emphasis
+          <ul>
+            <li>Use to emphasize or give importance to the enclosed text.</li>
+            <li>Typically rendered in italics by default.</li>
+            <li>Similar to `<strong>`, avoid using for purely visual purposes and instead use CSS for styling.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>u</strong> - Underline
+          <ul>
+            <li>Use to underline or add emphasis to the enclosed text.</li>
+            <li>Avoid using solely for stylistic purposes; consider CSS for visual styling.</li>
+            <li>Commonly used for hyperlinks (`<a>`), but not recommended for general text formatting.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>del</strong> - Deleted Text
+          <ul>
+            <li>Use to represent deleted or removed text.</li>
+            <li>Typically displayed with a strike-through line.</li>
+            <li>May be used in combination with `<ins>` to show edits or changes.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>sup</strong> - Superscript
+          <ul>
+            <li>Use to display text or symbols as superscript (raised above the baseline).</li>
+            <li>Commonly used for footnotes, mathematical exponents, or ordinal indicators (e.g., 1st, 2nd, 3rd).</li>
+            <li>Recommended to style superscript using CSS rather than relying on default rendering.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>sub</strong> - Subscript
+          <ul>
+            <li>Use to display text or symbols as subscript (lowered below the baseline).</li>
+            <li>Commonly used for chemical formulas, mathematical equations, or phonetic notation.</li>
+            <li>Similar to `<sup>`, it is recommended to style subscript using CSS for consistent rendering.</li>
+          </ul>
+        </li>
+      </ol>
+</body>
+</html>
+
+Q10. Create an ordered list of the full stack web development tech stack HTML, CSS, and JS. or each tech
+stack, create a table that lists the tech stack name, its primary use cases, and some key features or
+benefits. Below is a reference image.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>n ordered list of the full stack web development tech stack HTML, CSS, and JS</h3>
+    <table border="3">
+        <tr>
+          <th>Tech Stack Name</th>
+          <th>Primary Use Cases</th>
+          <th>Key Features/Benefits</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>
+            <ul>
+              <li>Structuring and organizing web content</li>
+              <li>Defining the semantics of web elements</li>
+              <li>Creating forms for user input</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Provides a standard structure for web documents</li>
+              <li>Supports accessibility and search engine optimization</li>
+              <li>Works seamlessly with CSS and JavaScript</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table border="3">
+        <tr>
+          <th>Tech Stack Name</th>
+          <th>Primary Use Cases</th>
+          <th>Key Features/Benefits</th>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>
+            <ul>
+              <li>Styling and presentation of web content</li>
+              <li>Layout and positioning of elements</li>
+              <li>Creating responsive designs</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Allows customization of visual aspects of a webpage</li>
+              <li>Enables consistent branding and design across multiple pages</li>
+              <li>Supports media queries for responsive design</li>
+            </ul>
+          </td>
+        </tr>
+      </table>  
+
+      <table border="3">
+        <tr>
+          <th>Tech Stack Name</th>
+          <th>Primary Use Cases</th>
+          <th>Key Features/Benefits</th>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>
+            <ul>
+              <li>Adding interactivity and dynamic behavior to web pages</li>
+              <li>Manipulating and updating content on-the-fly</li>
+              <li>Performing client-side form validation</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Allows the creation of interactive and engaging user experiences</li>
+              <li>Provides access to browser APIs and external libraries</li>
+              <li>Supports asynchronous operations for enhanced performance</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+</body>
+</html>
+
+
+
+
+Week 2: Assignment part 2:- getting start with html and emmet
+
+
+
+Q.1 Write a simple program in HTML that displays the heading “I am happy to Learn Web Development” on
+the web browser.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Web Page</title>
+</head>
+<body>
+  <h1>I am happy to Learn Web Development</h1>
+</body>
+</html>
+
+Q.2 Write a simple program in HTML, the webpage must contain the heading “Comments” and below the
+heading add some information about comments. The webpage must be rendered on the web browser as
+below image.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments</title>
+</head>
+<body>
+  <h1>comments</h1>
+  
+  <p>A statement of fact or opinion, especially a remark that expresses a personal reaction or attitude.</p>
+</body>
+</html>
+
+Q.3  Write a short note on tags, elements, and attributes along with relevant examples. 
+
+Tags: HTML tags are used to define the structure and formatting of elements within a web page. They are enclosed in angle brackets (< >) and can be either opening tags (<tag>) or closing tags (</tag>). Some tags are self-closing and don't require a closing tag. For example, the <p> tag is used to define a paragraph, and the <img> tag is used to embed an image.
+
+Elements: HTML elements are created by using tags and form the building blocks of a web page. They consist of an opening tag, content, and a closing tag (except for self-closing tags). Elements can be nested inside one another to create complex structures. For instance, the <h1> element defines a heading, and the <ul> element represents an unordered list.
+
+Attributes: Attributes provide additional information about an HTML element and are placed within the opening tag. They are composed of a name and a value, separated by an equals sign (=) and enclosed in double quotes. Attributes can control various aspects like appearance, behaviour, or provide metadata. For instance, the src attribute specifies the image source in the <img> tag, and the href attribute defines the hyperlink destination in the <a> tag.
+
+
+ Q.4 List out any 3 tags we learned in this module and give a brief explanation about the tags.
+
+<h1> (Heading 1): The <h1> tag is used to define the main heading of a web page or a section within it. It represents the highest level of headings and is typically used for the most important content. HTML provides <h1> to <h6> tags, with <h1> being the highest level and <h6> being the lowest.
+  Example:
+<h1> welcome to my website</h1>
+
+<a> (Anchor): The <a> tag is used to create hyperlinks or anchor links in HTML. It allows users to navigate between web pages or different sections within the same page. The href attribute is used to specify the URL or destination of the link.
+Example:
+<a href=”https: //www.example.com”> Click here </a>
+
+<img> (Image): The <img> tag is used to embed images in HTML documents. It allows you to display images on a web page by specifying the source (src) attribute, which points to the URL or file path of the image. The alt attribute provides alternative text that is displayed if the image cannot be loaded or for accessibility purposes.
+
+Example:
+<img src=”image.jpg” alt= “Description of the image”>
+
+In the examples above, the <h1> tag represents the main heading of a website, the <a> tag creates a hyperlink, and the <img> tag embeds an image. These tags are essential for structuring content, creating navigation links, and adding visual elements to web pages.
+
+Q.5 What is emmet? List some of the advantages emmet offers.
+
+Emmet is a popular abbreviation syntax and toolkit for web developers that allows for faster and more efficient HTML and CSS coding. It is supported by many modern code editors and integrated development environments (IDEs). Here are some advantages of using Emmet:
+
+Advantages of using emmet-
+
+Faster Coding: Emmet enables developers to write code quickly by using abbreviations and shortcuts. It allows you to expand simple expressions into complete HTML or CSS structures, reducing the need for repetitive typing.
+
+Dynamic Nesting: Emmet allows for easy and dynamic nesting of elements. You can quickly create nested structures by using the > symbol.
+
+CSS-like Syntax: Emmet's syntax resembles CSS, making it familiar and intuitive for web developers. It provides a shorthand notation to create complex HTML and CSS structures with ease.
+
+Customization: Emmet allows you to customize and define your own abbreviations, snippets, and preferences according to your coding style and project requirements.
+
+Multi-Language Support: Emmet supports various web development languages, including HTML, CSS, XML, and more. It provides shorthand notations and abbreviations for different syntaxes, enhancing productivity across multiple languages.
+
+Emmet significantly improves the speed and efficiency of coding HTML and CSS, making it a valuable tool for web developers. It reduces the amount of manual typing and enhances productivity, allowing developers to focus on the creative aspects of web development.
+
+
+Q.6 Using emmet create another webpage similar to questions 1 and 2.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+</head>
+<body>
+  <h1>I am so happy to Learn Web Development</h1> 
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> comments </h1>
+  
+  <p>A statement of fact or opinion, especially a remark that expresses a personal reaction or attitude.</p> 
+</body>
+</html>
+
+7.   Explain in brief about the nesting operators in emmet.
+
+
+ Emmet is a great tool that can enhance your productivity and save you a lot of time when coding.
+Nesting operators are used to position the abbreviation in the structured tree.
+
+Child:
+the > operator to nest elements inside each other.
+Abbreviation: div.grandparent>div.parent>div.child
+
+        Siblings: 
+Use the + operator to place elements on the same level base - near each other.
+Abbreviation: header+section+footer
+
+
+
+      Climb up: ^
+Use the ^ operator to climb one level up and place the element in that position.
+You can use as many ^ operators as you want, this gives you the ability to move several levels up.
+Abbreviation: section.top+section.middle>div^section.bottom
+
+Multiplication: *
+Use the * operator define how many times this element will be outputted.
+Abbreviation:ul>li*3
+Grouping ()
+Use the () operator to group subtrees in complex abbreviations.
+This gives you an easier control of the elements position in the structured tree.
+Abbreviation: div.wrapper>(header>ul>li.item*2>a)+section.main+footer
+You can nest groups inside each other combined with the multiplication* operator.
+
+Q.8 Build a simp5e webpage using any 2 emmet abbreviations and above the elements mention the emmet
+abbreviation using HTML comments. 
+
+<!-- emmet: html>(head>title{My Webpage})+(body>h1{Welcome}+p{This is a simple webpage.}) -->
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+  <h1>Welcome</h1>
+  <p>This is a simple webpage.</p>
+</body>
+</html>
+
+
+9.  What are self-closing tags? Write a brief note on meta tags.
+A self-closing tag in HTML is a kind of HTML tag that does not need to be closed manually by its closing tag, which means it does not have a separate closing tag as </tag>. Some few self-closing tags are <input/>, <hr/>, <br/>, <img/>, etc.
+It is also known as empty tags, void tags, singletons tags, etc. This means that these tags have no content and cannot have any children.
+–The HTML <meta> tag allows you to add metadata - extra essential information about a document in a number of ways. The <meta> elements can be used to incorporate name/value pairs specifying HTML document features such as expiry date, author, a list of keywords, document author, etc. You can include more than one meta tag in your document depending on the information you wish to maintain. Still, in general, meta tags do not affect the physical appearance of the document. Thus it makes no difference whether you include them or not.
+
+
+10. What are global attributes? List any 5 global attributes.
+
+Global attributes are attributes common to all HTML elements.
+Global attributes may be specified on all HTML elements, even those not specified in the standard. That means that any non-standard elements must still permit these attributes, even though using those elements means that the document is no longer HTML5-compliant.
+
+
+class:- Specifies one or more classnames for an element (refers to a class in a style sheet)
+
+draggable:-Specifies whether an element is draggable or not
+
+hidden:-Specifies that an element is not yet, or is no longer, relevant
+
+id:-Specifies a unique id for an element
+
+style:-Specifies an inline CSS style for an element
+
+translate:-Specifies whether the content of an element should be translated or not
+
